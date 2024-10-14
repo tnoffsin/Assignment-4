@@ -1,0 +1,20 @@
+Questions:
+A.) The purpose of the program was to write a function that determines the percentage of customers who “RENT”, “OWN”, and “MORTGAGE” their home.
+
+B.) The program works by calculating the percentages of customer who "Rent", "Own" and "Mortgage" their homes from a given dataset.
+It begins by splitting the input data into lines and extracting the header and rows. It then goes onto identifying
+the inputs of the home_ownership column. It initializes counters for each home ownership type 
+and then iterates through the rows to count occurrences of each type. Finally, it calculates the
+percentage of each type by dividing the counts by the total number of customers and 
+multiplying by 100. The program then returns each of these percentages, providing a summary of
+home ownership distribution among customers in the dataset and identifying the percentages of
+all who rent, own and mortgage their homes. It is then printed out as 'RENT': 68.0, 'OWN': 20.0, 'MORTGAGE': 12.0}
+
+C.) This program is designed to analyze a dataset to determine percentages of customers who "rent",
+"own", or "mortgage" their homes. It takes a csv data as the input and splits it into individual lines
+and seperates the header from the data rows. It identifies the position of the "home_ownership" column
+the program then starts counting for each home ownership type and iterates through the rows to count 
+the number of occurances of each type esuring accurate tallies. It goes onto calculating the percentages 
+by dividing the counts by the total number of customers and multiplying by 100. The program then returns
+these percentages. You just need to input your dataset or provide the dataset and it does the rest
+of the calculations. 
